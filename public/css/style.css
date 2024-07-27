@@ -101,5 +101,5 @@ body {
 #map {
   height: 400px;
   width: 400px;
-  border-radius: 0.7rem;
+  border-radius: 24px;
 }
