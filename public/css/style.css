@@ -106,6 +106,8 @@ body {
 @media (min-width: 475px) {
   #map {
     offset: 1;
+    align-items: start;
+    justify-content: start;
     height: 350px;
     max-width: 300px;
   }
