@@ -99,7 +99,29 @@ body {
   margin-top: 1.5rem;
 }
 #map {
-  height: 500px;
+  height: 400px;
   width: 400px;
   border-radius: 24px;
+}
+@media (min-width: 475px) {
+  #map {
+    offset: 1;
+    height: 350px;
+    max-width: 300px;
+  }
+}
+@media (min-width: 640px) {
+  #map {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  #map {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  #map {
+    max-width: 1024px;
+  }
 }
